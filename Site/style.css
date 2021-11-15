@@ -375,7 +375,7 @@ p{
     left: 15px;
     right: 15px;
     bottom: 0;
-    border-bottom: 2px;px dashed var(--dark-light);
+    border-bottom: 2px dashed var(--dark-light);
 }
 .menu-item-title{
     display: flex;
