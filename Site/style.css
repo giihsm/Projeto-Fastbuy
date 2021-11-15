@@ -358,9 +358,6 @@ p{
 .menu-tab-item.active{
     color: var(--main-color);
 }
-.menu-tab-content{
-    display: none;
-}
 .menu-tab-content.active{
     display: flex;
 }
@@ -371,6 +368,14 @@ p{
     align-items: center;
     justify-content: space-between;
     position: relative;
+}
+.menu-item::after{
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    border-bottom: 2px;px dashed var(--dark-light);
 }
 .menu-item-title{
     display: flex;
